@@ -17,7 +17,7 @@ const Faq = () => {
                     <ChevronUpIcon
                       className={`${
                         open ? "transform rotate-180" : ""
-                      } w-5 h-5 text-indigo-500`}
+                      } w-5 h-5 text-blue-700`}
                     />
                   </Disclosure.Button>
                   <Disclosure.Panel className="px-4 pt-4 pb-2 text-gray-500 dark:text-gray-300">
@@ -39,18 +39,8 @@ const faqdata = [
     answer: "Yes, this template is completely free to use.",
   },
   {
-    question: "Can I use it in a commercial project?",
-    answer: "Yes, this you can.",
-  },
-  {
-    question: "What is your refund policy? ",
-    answer:
-      "If you're unhappy with your purchase for any reason, email us within 90 days and we'll refund you in full, no questions asked.",
-  },
-  {
-    question: "Do you offer technical support? ",
-    answer:
-      "No, we don't offer technical support for free downloads. Please purchase a support plan to get 6 months of support.",
+    question: "Хэн оролцож болох вэ?",
+    answer: "Тэтгэлэгт хөтөлбөрийн тавигдах шаардлагыг бүрэн хангаж байгаа оюутнууд бүртгүүлэх боломжтой.",
   },
 ];
 

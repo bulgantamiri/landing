@@ -19,15 +19,14 @@ export default function Footer() {
           <div className="lg:col-span-2">
             <div>
               {" "}
-              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-indigo-500 dark:text-gray-100">
+              <Link href="/" className="flex items-center space-x-2 text-2xl font-medium text-blue-700 dark:text-gray-100">
                     <Image
                       src="/img/logo.svg"
                       alt="N"
                       width="32"
                       height="32"
-                      className="w-8"
+                      className="w-96"
                     />
-                  <span>Nextly</span>
               </Link>
             </div>
 
@@ -41,7 +40,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {navigation.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-blue-700 focus:text-blue-700 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">                 
                     {item}
                 </Link>
               ))}
@@ -50,7 +49,7 @@ export default function Footer() {
           <div>
             <div className="flex flex-wrap w-full -mt-2 -ml-3 lg:ml-0">
               {legal.map((item, index) => (
-                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-indigo-500 focus:text-indigo-500 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
+                <Link key={index} href="/" className="w-full px-4 py-2 text-gray-500 rounded-md dark:text-gray-300 hover:text-blue-700 focus:text-blue-700 focus:bg-indigo-100 focus:outline-none dark:focus:bg-trueGray-700">      
                     {item}
                 </Link>
               ))}
